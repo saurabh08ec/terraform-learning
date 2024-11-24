@@ -4,6 +4,11 @@ variable "aws_region" {
   default     = "us-east-1"
 }
 
+variable "key_name" {
+  description = "EC2 login key"
+  type        = string
+}
+
 variable "ami_id" {
   description = "AWS machine id"
   type        = string

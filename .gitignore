@@ -1,1 +1,5 @@
 .terraform
+login_cbnode1.sh
+copy_private_key.sh
+login_cbnode2.sh
+login_cbnode3.sh
