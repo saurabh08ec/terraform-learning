@@ -1,4 +1,4 @@
-resource "aws_instance" "mywebserver" {
+resource "aws_instance" "cbnode1" {
   ami           = var.ami_id
   instance_type = var.instance_type
   tags = {
